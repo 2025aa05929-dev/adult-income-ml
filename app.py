@@ -29,12 +29,12 @@ st.markdown(
 # Load trained models
 # --------------------------------------------------
 models = {
-    "Logistic Regression": joblib.load("models/logistic_regression.pkl"),
-    "Decision Tree": joblib.load("models/decision_tree.pkl"),
-    "KNN": joblib.load("models/knn.pkl"),
-    "Naive Bayes": joblib.load("models/naive_bayes.pkl"),
-    "Random Forest": joblib.load("models/random_forest.pkl"),
-    "XGBoost": joblib.load("models/xgboost.pkl"),
+    "Logistic Regression": joblib.load("models1/logistic_regression.pkl"),
+    "Decision Tree": joblib.load("models1/decision_tree.pkl"),
+    "KNN": joblib.load("models1/knn.pkl"),
+    "Naive Bayes": joblib.load("models1/naive_bayes.pkl"),
+    "Random Forest": joblib.load("models1/random_forest.pkl"),
+    "XGBoost": joblib.load("models1/xgboost.pkl"),
 }
 
 # --------------------------------------------------
