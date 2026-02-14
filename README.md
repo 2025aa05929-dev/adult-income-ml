@@ -80,16 +80,20 @@ Overall, the experimental results confirm that **ensemble models, particularly X
 ## Repository Structure
 
 ```text
-adult-income-ml/
-│
-├── models1/
-│   ├── logistic_regression.pkl
-│   ├── decision_tree.pkl
-│   ├── knn.pkl
-│   ├── naive_bayes.pkl
-│   ├── random_forest.pkl
-│   └── xgboost.pkl
-│
-├── streamlit_app.py
-├── requirements.txt
-└── README.md
+adult-income-ml/  
+│  
+├── models1/                          # Folder with all saved model files  
+│   ├── logistic_regression.pkl        # Logistic Regression model  
+│   ├── decision_tree.pkl              # Decision Tree model  
+│   ├── knn.pkl                        # K-Nearest Neighbors model  
+│   ├── naive_bayes.pkl                # Naive Bayes model  
+│   ├── random_forest.pkl              # Random Forest model  
+│   └── xgboost.pkl                    # XGBoost model  
+│  
+├── Adult_Income_Classification.ipynb  # Jupyter notebook for training/evaluation  
+├── app.py                            # Streamlit web application  
+├── requirements.txt                   # Python dependencies for app  
+├── runtime.txt                        # (Optional, for deployment)  
+├── test.csv                           # Sample test data for app upload  
+└── README.md                          # Assignment documentation
+
