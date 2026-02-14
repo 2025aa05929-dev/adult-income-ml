@@ -82,7 +82,7 @@ Overall, the experimental results confirm that **ensemble models, particularly X
 ```text
 adult-income-ml/
 │
-├── models/
+├── models1/
 │   ├── logistic_regression.pkl
 │   ├── decision_tree.pkl
 │   ├── knn.pkl
